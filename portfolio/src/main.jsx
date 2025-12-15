@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
     <DataContextProvider> 
     <BrowserRouter> 
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<App />} /> 
         <Route path="/auth" element={<Auth />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<Navigate to="/" replace />} />
