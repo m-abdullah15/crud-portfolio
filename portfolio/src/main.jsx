@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import Auth from './pages/Auth.jsx';
-import Admin from './pages/Admin.jsx';
+import Admin from './pages/Admin.jsx'; 
 import DataContextProvider from './context/DataContextProvider'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
