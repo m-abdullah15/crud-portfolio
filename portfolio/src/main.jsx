@@ -8,7 +8,7 @@ import Admin from './pages/Admin.jsx';
 import DataContextProvider from './context/DataContextProvider'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <DataContextProvider>
+    <DataContextProvider> 
     <BrowserRouter> 
       <Routes>
         <Route path="/" element={<App />} />
