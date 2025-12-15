@@ -7,7 +7,7 @@ import Auth from './pages/Auth.jsx';
 import Admin from './pages/Admin.jsx'; 
 import DataContextProvider from './context/DataContextProvider'
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode> 
     <DataContextProvider>  
     <BrowserRouter> 
       <Routes>
