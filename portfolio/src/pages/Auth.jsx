@@ -9,7 +9,6 @@ function Auth() {
   const navigate = useNavigate();
   const usersKey = 'portfolio_users';
 
-  
   const loadUsers = () => {
     try {
       const raw = localStorage.getItem(usersKey);
