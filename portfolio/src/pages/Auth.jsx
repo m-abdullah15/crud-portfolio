@@ -7,7 +7,6 @@ function Auth() {
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const navigate = useNavigate();
-
   const usersKey = 'portfolio_users';
 
   const loadUsers = () => {
