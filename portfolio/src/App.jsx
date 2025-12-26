@@ -1,14 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
-import FloatingParticles from './components/FloatingParticles';
-import CursorFollower from './components/CursorFollower';
-import Contact from './components/Contact';
-import DataContext from './context/DataContext';
+
 
 
 function App() {
