@@ -10,6 +10,7 @@ import CursorFollower from './components/CursorFollower';
 import Contact from './components/Contact';
 import DataContext from './context/DataContext';
 
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
