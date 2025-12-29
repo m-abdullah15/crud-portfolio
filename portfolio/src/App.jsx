@@ -10,6 +10,7 @@ import Hero from './components/Hero';
 
 
 
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
